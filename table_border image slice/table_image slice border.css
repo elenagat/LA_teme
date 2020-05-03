@@ -1,0 +1,39 @@
+table{
+    border: 10px solid blueviolet;
+    border-spacing: 0.5em;
+    border-collapse: collapse;
+    padding: 3px;
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 400px;
+    height: 150px;
+}
+
+#borderimg{
+    border-image-source: url(stamp.png);
+    border-image-slice: 20%;
+    border-image-repeat: round;
+}
+
+th {
+text-align: center;
+background-color: lightblue;
+}
+
+caption{
+    padding: 5px;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 20;
+    color:blue ;
+}
+table, th, td {
+border: 3 px solid red;
+padding: 10px;
+}
+td{
+    background-color: lightskyblue;
+}
+th, td{
+    border: 3px solid blueviolet;
+}
