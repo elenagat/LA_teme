@@ -1,0 +1,7 @@
+body{
+    height: 100vh;
+    background-image: url(images/earth.png), url(images/moon.png), url(images/rocket.png), url(space.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 25vh, 10vh, 10vh, cover;
+    background-position: center center, 75% 70%, 30% 25%;
+}
