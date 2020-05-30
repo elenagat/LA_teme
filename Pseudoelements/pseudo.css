@@ -1,12 +1,28 @@
-p::first-letter {
-    font-weight: bold;
-    color: crimson;
-    font-size: 1.2em;
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-p::first-line {
+article {
+    width: 40%;
+    background-color: rgb(240, 220, 108);
+    padding: 1em;
+}
+h1 {
+    vertical-align: middle;
+    line-height: 1em;
+}
+h1::before, h1::after {
+    position: relative;
+    content:"***";
     font-family: sans-serif;
-}
-p::selection {
+    font-size: 0.7em;
     color: orangered;
-    background-color: blanchedalmond;
+    line-height: 1em;
+    top: -0.2em;
+}
+
+h1:hover {
+    color: blueviolet;
 }
