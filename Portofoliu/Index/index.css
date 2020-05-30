@@ -104,7 +104,7 @@ article p {
 .job {
     color: rgb(108, 108, 108);
 }
-.car .job {
+.card .job {
     position: relative;
     bottom: 1.7em;
 }
