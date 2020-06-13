@@ -97,6 +97,8 @@ input[type="button"] {
 }
 .card {
     font-size: 1.2 em;
+    animation-name: heartBeat;
+    animation-name: 1s;
 }
 .card:hover {
     animation-name: bounce;
