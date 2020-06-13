@@ -1,0 +1,10 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 2fr 5fr 1fr;
+    height: 100vh;
+    grid-gap: 1em;
+}
+div {
+    background-color: gray;
+}
