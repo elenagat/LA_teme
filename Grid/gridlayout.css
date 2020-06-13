@@ -6,5 +6,11 @@ body {
     grid-gap: 1em;
 }
 div {
-    background-color: gray;
+    background-color:darkgray;
+}
+header {
+    grid-area: 1 / 1 /span 1 / span 3;
+}
+footer {
+    grid-area: 3 / 1 span 1 / span 3;
 }
