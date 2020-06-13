@@ -11,14 +11,14 @@
 <body>
     <header>
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#welcome">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#team">Team</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
-    <article>
+    <article id="welcome">
         <div class="overlay"></div>
         <div id="hello">
             <h1>Hello! Welcome to our official website!</h1>
@@ -72,16 +72,15 @@
             </div>
         </div>
     </article>
-    <article id="team">
-        <h1> Meet our team</h1>
-        <div class="pictures">
-            <div class="card">
-                <img src="team1" alt="">
-                <div class="name">Sara</div>
-                <div class="job">CEO</div>
-            </div>
+    <article id="contact">
+        <h1>Get in touch</h1>
+        <div id="form">
+            <input type="text" name="name" id="name">
+            <input type="text" name="email" id="email">
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <input type="button" value="Send">
         </div>
     </article>
-</body>
+    </body>
 
 </html>
