@@ -1,0 +1,10 @@
+#stamp {
+    height: 7em;
+    width: 7em;
+    background-color: aquamarine;
+    position: fixed;
+    top: 10em;
+    left: 10em;
+    border-style: dashed;
+    border-color: white;
+}
