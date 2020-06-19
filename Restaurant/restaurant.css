@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,500&family=Amatic+SC:wght@400;700&display=swap');
-
-* {
+*{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -8,13 +6,13 @@
 .welcome {
     width: 100vw;
     height: 100vh;
-    background-image: url(header.jpg);
+    background-image: url("header.jpg");
     background-size:cover;
 }
 .logo {
     width: 3em;
     height: 3em;
-    background-image: url(logo.png);
+    background-image: url("logo.png");
     background-size: cover;
 }
 header {
