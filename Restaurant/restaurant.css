@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,500&family=Amatic+SC:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.welcome {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(header.jpg);
+    background-size:cover;
+}
+.logo {
+    width: 3em;
+    height: 3em;
+    background-image: url(logo.png);
+    background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+li {
+    padding-left: 1em;
+}
+header a {
+    font-family: Alegreya;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+}
