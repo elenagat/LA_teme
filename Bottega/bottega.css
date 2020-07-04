@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:700&display=swap');
+*,*::before, *::after
+* {
+   margin:0;
+   padding:0; 
+   box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+article {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    background-image: url(photo1.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    color: white;
+    font-family: tenez;
+    font-weight: 700;
+    font-size: 8em;
+    margin-bottom: 0.2em;
+}
+a {
+    font-family: futura;
+    color: white;
+    font-size: 2.3em;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+a::after {
+    content: '';
+    height: 3px;
+    width: 100%;
+    display:block;
+    background: white;
+    position: absolute;
+    transform: scaleX(0);
+    transition: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    bottom: 0;
+    left: 0;
+}
+a:hover::after {
+    transform: scaleX(1);
+}
+article#portfolio {
+    background-color: rgb(205, 92, 92);
+    background-image: none;
+}
+.pictures {
+    margin-bottom: 2em;
+}
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+        color: white;
+    }
+    50% {
+        transform: translateY(-50px);
+        color: black;
+    }
+to {
+    transform: translateY(0);
+    color: white;
+}
+}
+h1 span {
+    display: inline-block;
+}
+h1 span {
+    animation-name: bounce;
+    animation-duration: 1s;
+}
+h1 span:nth-child(1) {
+    animation-delay: 0s;
+}
+h1 span:nth-child(2) {
+    animation-delay: 0.05s;
+}
+h1 span:nth-child(3) {
+    animation-delay: 0.1s;
+}
+h1 span:nth-child(4) {
+    animation-delay: 0.15s;
+}
+h1 span:nth-child(5) {
+    animation-delay: 0.20s;
+}
+h1 span:nth-child(6) {
+    animation-delay: 0.25s;
+}
+h1 span:nth-child(7) {
+    animation-delay: 0.30s;
+}
+h1 span:nth-child(8) {
+    animation-delay: 0.35s;
+}
+h1 span:nth-child(9) {
+    animation-delay: 0.40s;
+}
+h1 span:nth-child(10) {
+    animation-delay: 0.45s;
+}
+h1 span:nth-child(11) {
+    animation-delay: 0.50s;
+}
+h1 span:nth-child(12) {
+    animation-delay: 0.55s;
+}
+body{
+    font-size: 1.2em;
+}
+.welcome, .portfolio {
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+.welcome {
+    z-indez: 1;
+    background-color: black;
+    background-image: url(photo1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    transition-duration: 2s;
+    transition-property: left;
+}
+.portfolio {
+    z-index: 0;
+    background-color: rgb(205, 92, 92);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+. portfolio .pictures img {
+    width: 200px;
+    height: 300px;
+}
+.title {
+    margin-top: 1em;
+    font-family: 'Lora';
+    color: white;
+    font-size: 5em;
+}
+.enter, .back {
+    margin: 0.8em;
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.2em;
+    position: relative;
+    cursor: pointer;
+}
+.enter::after,.back::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    height: 3px;
+    background-color: white;
+    opacity: 0;
+    width: 0;
+    transition-duration: 0.55s;
+}
+.enter:hover::after, .back:hover::after {
+    width:100%;
+    opacity:1;
+}
+@keyframes bounce {
+    from {
+        top: 0px;
+        color: white;
+    }
+    to {
+        top: -0.7em;
+        color: black;
+    }
+}
+.title span {
+    position: relative:
+}
+.title span.bounce {
+    animation-name: bounce;
+    animation-duration: 0.55s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+.slide-out {
+    left: 100vw;
+}
+.slide-in {
+    left: 0;
+}
